@@ -13,7 +13,7 @@ func main() {
 
 	fmt.Println("List of my todos")
 
-	for i, task := range taskItems {
+	for i, task := range taskItems { // go loop
 		fmt.Println(i+1, task)
 
 	}
